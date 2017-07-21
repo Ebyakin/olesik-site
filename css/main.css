@@ -99,7 +99,11 @@ textarea {
    	font-family: 'Source Sans Pro', sans-serif;
    	font-size: 16px;
    	color: #222;
-   	background-color: #eee;
+
+   }
+
+   body {
+     background-image: url("../img/stars.jpg");
    }
 
 nav {
@@ -111,61 +115,43 @@ nav {
 
 .name {
   font-family: 'Marck Script', cursive;
-  padding-top: 5%;
-  margin: 0;
   max-width: 960px;
+  margin: 0;
+  padding: 7% 10%;
+  position: absolute;
+  top: 0;
+
+  max-width: 80%;
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: lighter;
+  text-align: left;
   }
 
-/*   #photos {
-  	margin: 0 auto;
-  	max-width: 90%;
-  	position: relative;
-  }
-
-  #photos img {
-  	position: relative;
-  	float: left;
-  	width: 100%;
-  }
-
-  #photos p {
-  	padding: 29% 0 0 18%;
-  	position: absolute;
-  	max-width: 100%;
-  	font-family: 'Dancing Script', cursive;
-    color: #000;
-  	font-size: 2em;
-  	text-align: center;
-  }
-
-*/
 .top-img {
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
 }
 
 .top-img img {
   width: 100%;
+  margin: 0;
   position: relative;
-  float: left;
+
 }
 
-.name {
-  padding: 1% 0 0 1%;
-  position: absolute;
-  max-width: 100%;
-  color: #fff;
-  font-size: 2em;
-  font-weight: lighter;
-  text-align: center;
-}
+
 
 
 
 /* Main Content =========================== */
 
-
+section {
+  width: 86%;
+  padding-left: 7%;
+  text-align: justify;
+}
 
 .natal-map, .map{
 	width: 100%;
@@ -174,9 +160,16 @@ nav {
 	.natal-map img, .map img {
 		width: 100%;
 	}
+
+  .about {
+    margin: 0;
+  }
 /* Footer =========================== */
 
-
+footer {
+  width: 80%;
+  padding-left: 5%;
+}
 
 
 
