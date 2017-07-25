@@ -16,40 +16,43 @@
         <!--- Fonts --->
 
         <link href="https://fonts.googleapis.com/css?family=Marck+Script&amp;subset=cyrillic" rel="stylesheet">
-
     </head>
 
     <body>
 
     <header>
+      <div class="header">
+        <a href="index.html" class="logo">Олеся Бякина. Астролог</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#astro-map">Астрологический прогноз</a></li>
+          <li><a href="pages/questions.html">Вопросы</a></li>
+          <li><a href="pages/review.html">Отзывы</a></li>
+          <li><a href="">Хочу на консультацию</a></li>
+        </ul>
+      </div>
+
     <div class="title-name">
       <figure class="top-img">
         <img src="img/main.jpg" alt="Olesia Photo"/>
       </figure>
-      <h2 class="name">Олеся Бякина. <span class="astro">Астролог</span></h2>
     </div>
-
-    <nav class="topnav">
-      <a href="">Немного обо мне</a>
-      <a href="">Астрологическая карта. Прогноз</a>
-      <a href="">Вопросы</a>
-      <a href="">Отзывы</a>
-      <a href="">Заказать консультацию</a>
-    </nav>
     </header>
 
     <section>
       <div class="main">
 
-          <div class="about">
-            <h2>Привет!</h2>
+          <div id="about">
+            <h3>Привет!</h3>
             <p> Меня зовут Олеся.
             Я астролог и хиромант, помогаю людям увидеть простые вещи, о их, порой кажущейся непростой, запутанной жизни. </p>
-            <h2> Обо мне и как это работает?</h2>
+            <h3> Обо мне и как это работает?</h3>
             <p> Я осознала, что хочу заниматься астралогией 8 лет назад и с тех пор я постоянно учусь.
               Сначала это была запалная астрология и хиромантия, потом ведическая. Сейчас я составляю прогноз исходя сразу из двух школ,
               которые порой спорят друг с другом о правильности трактования, при этом мне это позволяет видеть картину шире.  </p>
-            <h2> Астрологическая карта. Прогноз </h2>
+            <h3 id="astro-map"> Астрологическая карта. Прогноз </h3>
             <p>Скажите мне вашу дату и время рождения и я скажу вам кто вы ))) Еще я посмотрю ваши руки, чтобы сопоставить все данные.
               По дате  времени рождения составляются натальные карты они выглядят примерно вот так </p>
             </div>
@@ -62,7 +65,6 @@
           <img src="img/prima.png" alt="prima"/>
           </figure>
         </div>
-
           <p>Это так называемые натальные карты, как я уже писала я работаю сразу с двумя интерпретациями + руки для создания комплексного видения у человека</p>
           </div>
         </div>
@@ -70,13 +72,13 @@
     </section>
     <footer>
       <div>
-        <h4 id="socialmedia-header">Соцсети</h4>
         <ul>
           <li><a href="https://www.facebook.com/zyatevao" target="_blank"><img src="img/facebook.png" alt="facebook icon"></a></li>
           <li><a href="https://vk.com/id86411291" target="_blank"><img src="img/vkontakte.png" alt="vkontakte icon"></a></li>
           <li><a href="https://www.instagram.com/mrs.byakina/" target="_blank"><img src="img/instagram.png" alt="instagram icon"></a></li>
           <li><a href="skype:olesia.astro" target="_blank"><img src="img/skype.png" alt="skype icon"></a></li>
         </ul>
+        <p> All rights reserved. Olesia Astro. 2017</p>
       </div>
 
     </footer>
