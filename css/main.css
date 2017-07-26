@@ -320,7 +320,14 @@ footer p {
   bottom: 0;
 }
 
+.feed-item {
+  border-bottom: 1px solid #fff;
+}
 
+#call a {
+  color: #fff;
+  text-decoration: none;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
