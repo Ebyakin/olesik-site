@@ -1,10 +1,3 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -96,7 +89,15 @@ textarea {
    ========================================================================== */
    html {
       height: 100%;
+      /* makes footer at the bottom */
+      box-sizing: border-box;
     }
+/* makes footer at the bottom */
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+      }
 
    body {
      margin: 0;
@@ -105,6 +106,9 @@ textarea {
      color: #cdcdcd;
      font-family: "Avenir Next", "Avenir", sans-serif;
      font-size: 16px;
+     /* makes footer at the bottom */
+     min-height: 100%;
+     position: relative;
    }
 
    a {
@@ -117,6 +121,7 @@ textarea {
    }
 
 /* Header =========================== */
+
 
 .top-img {
   width: 100%;
@@ -252,7 +257,7 @@ textarea {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 20px 10px;
   }
   .header .menu {
     clear: none;
@@ -268,9 +273,12 @@ textarea {
 /* Main Content =========================== */
 
 section {
-  width: 86%;
+  width: 93%;
   padding-left: 7%;
+  /* makes footer at the bottom */
+  padding-bottom: 95px;
   text-align: justify;
+  position: relative;
 }
 
 .natal-map, .map{
@@ -284,13 +292,19 @@ section {
   .about {
     margin: 0;
   }
+
 /* Footer =========================== */
 
 footer {
   width: 100%;
   background-color: #333;
   text-align: center;
-
+  /* makes footer at the bottom */
+  position: absolute;
+  height: 95px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 footer ul {
@@ -300,7 +314,7 @@ padding-right: ;
 }
 footer li {
   display: inline-block;
-  padding: 4% 40px 0 0;
+  padding: 10px 35px 0 0;
 }
 
 footer p {
@@ -308,6 +322,7 @@ footer p {
 }
 
 /* Questions page */
+
 .questions {
   display: block;
   line-height: 250%;
@@ -315,18 +330,49 @@ footer p {
   padding-left: 20px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-}
+/* Review page */
 
 .feed-item {
   border-bottom: 1px solid #fff;
 }
 
+.feed-img {
+  margin-left: ;
+  text-align: center;
+}
+
+.feed-img img{
+  height: 150px;
+  width: 150px;
+}
+
+.feed-type {
+  text-align: center;
+}
+
+/* Call page */
+
+#call {
+  width: 94%;
+}
+
 #call a {
   color: #fff;
   text-decoration: none;
+}
+
+#call ul {
+  list-style: none;
+  padding: 0;
+}
+
+#call li {
+  margin: 20px 0;
+}
+
+.contacts {
+  border: 5px double #fff;
+  padding: 0;
 }
 /* ==========================================================================
    Helper classes
