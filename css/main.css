@@ -126,14 +126,16 @@ textarea {
 .top-img {
   width: 100%;
   margin: 0;
+
   position: ;
+  text-align: center;
 }
 
 .top-img img {
   width: 100%;
   margin: 0;
+  max-width: 480px;
   position: ;
-
 }
 
 /* Humburger - menu = div header */
@@ -252,7 +254,7 @@ textarea {
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 860px) {
   .header li {
     float: left;
   }
@@ -273,12 +275,17 @@ textarea {
 /* Main Content =========================== */
 
 section {
-  width: 93%;
-  padding-left: 7%;
+  width: ;
+  padding:;
   /* makes footer at the bottom */
   padding-bottom: 95px;
   text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
+  max-width: 480px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .natal-map, .map{
@@ -289,10 +296,46 @@ section {
 		width: 100%;
 	}
 
-  .about {
-    margin: 0;
+  .main {
+
+
   }
 
+@media (min-width: 768px){
+  #main-info {
+  max-width: 1024px;
+  }
+
+  #main-area {
+    display: flex;
+    clear: both;
+  }
+
+  .top-img {
+    width: 50%;
+    padding: ;
+  }
+
+.main {
+  width: 50%;
+  padding: 150px 50px 0 50px;
+}
+
+.maps {
+  display: flex;
+}
+
+.natal-map{
+  padding: 5px;
+}
+
+.map {
+  width: 98%;
+  height: 98%;
+  padding: 5px;
+
+}
+}
 /* Footer =========================== */
 
 footer {
@@ -320,6 +363,11 @@ footer li {
 footer p {
   font-size: 0.8em;
 }
+/* Pages */
+
+.pages {
+  padding-top: 7%;
+}
 
 /* Questions page */
 
@@ -333,7 +381,7 @@ footer p {
 /* Review page */
 
 .feed-item {
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
 }
 
 .feed-img {
@@ -348,6 +396,41 @@ footer p {
 
 .feed-type {
   text-align: center;
+}
+
+@media (min-width: 768px){
+  #review {
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    max-width: 1600px;
+  }
+
+  .feed-item {
+    padding-bottom: 200px;
+    clear: both;
+  }
+
+  .feed-img {
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 170px;
+  }
+
+  .feed-info  {
+    width: 60%;
+    float: left;
+  }
+
+  .feed-type {
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
 
 /* Call page */
@@ -374,6 +457,8 @@ footer p {
   border: 5px double #fff;
   padding: 0;
 }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
