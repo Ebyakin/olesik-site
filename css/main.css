@@ -122,22 +122,6 @@ textarea {
 
 /* Header =========================== */
 
-
-.top-img {
-  width: 100%;
-  margin: 0;
-
-  position: ;
-  text-align: center;
-}
-
-.top-img img {
-  width: 100%;
-  margin: 0;
-  max-width: 480px;
-  position: ;
-}
-
 /* Humburger - menu = div header */
 
 .header {
@@ -271,12 +255,9 @@ textarea {
   }
 }
 
-
 /* Main Content =========================== */
 
 section {
-  width: ;
-  padding:;
   /* makes footer at the bottom */
   padding-bottom: 95px;
   text-align: justify;
@@ -284,8 +265,8 @@ section {
   margin-right: auto;
   position: relative;
   max-width: 480px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 
 .natal-map, .map{
@@ -296,12 +277,20 @@ section {
 		width: 100%;
 	}
 
-  .main {
+  .top-img {
+    width: auto;
+    margin: 0 -27px;
+  }
 
+  .top-img img {
+    width: 100%;
+    margin: 0;
+    max-width: 480px;
 
   }
 
 @media (min-width: 768px){
+
   #main-info {
   max-width: 1024px;
   }
@@ -317,8 +306,9 @@ section {
   }
 
 .main {
+  text-align: justify;
   width: 50%;
-  padding: 150px 50px 0 50px;
+  padding: 200px 20px 0 100px;
 }
 
 .maps {
@@ -336,6 +326,7 @@ section {
 
 }
 }
+
 /* Footer =========================== */
 
 footer {
@@ -352,9 +343,8 @@ footer {
 
 footer ul {
 text-align: center;
-padding-right: ;
-
 }
+
 footer li {
   display: inline-block;
   padding: 10px 35px 0 0;
@@ -363,6 +353,7 @@ footer li {
 footer p {
   font-size: 0.8em;
 }
+
 /* Pages */
 
 .pages {
@@ -385,7 +376,6 @@ footer p {
 }
 
 .feed-img {
-  margin-left: ;
   text-align: center;
 }
 
@@ -408,7 +398,7 @@ footer p {
   }
 
   .feed-item {
-    padding-bottom: 200px;
+    padding-bottom: 280px;
     clear: both;
   }
 
@@ -435,8 +425,8 @@ footer p {
 
 /* Call page */
 
-#call {
-  width: 94%;
+#call img {
+  margin: 0 10px;
 }
 
 #call a {
