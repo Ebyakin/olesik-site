@@ -102,7 +102,7 @@ textarea {
    body {
      margin: 0;
      padding: 0;
-     background: #232323;
+     background: #000050;
      color: #cdcdcd;
      font-family: "Avenir Next", "Avenir", sans-serif;
      font-size: 16px;
@@ -236,9 +236,7 @@ textarea {
   top: 0;
 }
 
-/* 48em = 768px */
-
-@media (min-width: 860px) {
+@media (min-width: 768px) {
   .header li {
     float: left;
   }
@@ -269,13 +267,6 @@ section {
   padding-right: 27px;
 }
 
-.natal-map, .map{
-	width: 100%;
-	margin: 0;
-}
-	.natal-map img, .map img {
-		width: 100%;
-	}
 
   .top-img {
     width: auto;
@@ -289,6 +280,18 @@ section {
 
   }
 
+.ciao {
+  text-align: right;
+  padding-right: 50px;
+}
+
+#about, .main  {
+  line-height: 200%;
+}
+
+#astro-map ol li {
+  line-height: 200%;
+}
 @media (min-width: 768px){
 
   #main-info {
