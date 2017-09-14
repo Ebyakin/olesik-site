@@ -241,7 +241,7 @@ textarea {
     float: left;
   }
   .header li a {
-    padding: 20px 10px;
+    padding: 20px 20px;
   }
   .header .menu {
     clear: none;
@@ -285,13 +285,36 @@ section {
   padding-right: 50px;
 }
 
+.forcons {
+  font-style: italic;
+}
+
 #about, .main  {
   line-height: 200%;
 }
 
-#astro-map ol li {
+#consult ul li {
   line-height: 200%;
 }
+
+#consult img {
+  margin: 0 10px;
+}
+
+#consult a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#consult ul {
+  list-style: none;
+  padding: 0;
+}
+
+#consult li {
+  margin: 20px 0;
+}
+
 @media (min-width: 768px){
 
   #main-info {
@@ -314,20 +337,6 @@ section {
   padding: 200px 20px 0 100px;
 }
 
-.maps {
-  display: flex;
-}
-
-.natal-map{
-  padding: 5px;
-}
-
-.map {
-  width: 98%;
-  height: 98%;
-  padding: 5px;
-
-}
 }
 
 /* Footer =========================== */
@@ -443,8 +452,9 @@ footer p {
 }
 
 #call li {
-  margin: 20px 0;
+  margin: 35px 0;
 }
+
 
 .contacts {
   border: 5px double #fff;
